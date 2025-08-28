@@ -1,8 +1,10 @@
-# Experiment-4
-## ARMSTRONG NUMBER 
-# Aim: Write a python program to check the number is Armstrong number or not and inspect for failures. 
+### Name : S Mohamed Ahsan
+### Reg No : 212223240089
+# Experiment-4 ARMSTRONG NUMBER 
+## Aim: 
+Write a python program to check the number is Armstrong number or not and inspect for failures. 
 
-# Algorithm
+## Algorithm
 1.	Start the program.
 2. Read an integer input number.
 3. Initialize the variables current_digit, sum = 0, and num = number.
@@ -13,8 +15,18 @@
 8. Check if sum == number. If true, print "It is an Armstrong Number." Otherwise, print "It is not an Armstrong Number."
 9. Stop the program. 
 
-# Program
+## Program
+```python
+num=int(input("Ente a anumber :"))
+power=len(str(num))
+total=sum(int(digit)**power for digit in str(num))
+if num==total:
+    print(num,"is an Armstrong number")
+else:
+    print(num,"is not an Armstrong number")
+```
+## Output
+<img width="535" height="219" alt="image" src="https://github.com/user-attachments/assets/51a238e4-8076-49f5-be83-8309828c5392" />
 
-# Output
-
-# Result
+## Result
+Thus, the python program to find an Armstrong number has been executed successfully.
